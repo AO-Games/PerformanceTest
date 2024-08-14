@@ -154,7 +154,7 @@ function App() {
       <p></p>
       <ResetButton />
       <p></p>
-      <Add10TPS onClick={add10TPS}/> Total: {total}, Wallets: {totalWallets}
+      <Add10TPS onClick={add10TPS}/> Total Sent: {total}, TPS: {totalWallets}
       <p></p>
       Click to Monitor <CountMonitor />
     </div>
